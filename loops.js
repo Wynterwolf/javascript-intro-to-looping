@@ -4,8 +4,17 @@ function forLoop(array) {
   for (var i = 0; i < 25; i++) {
     return`I am ${i} strange loop${i === 0 ? '' : 's'}.` ;
     }}
-    
-    
+  
+
+const forLoop (count) => {
+  array = [];  
+  for (i=0; i===count; i++) {
+    array.append(`I am ${i} strange loop${i === 0 ? '' : 's'}.`)
+  }
+  return array;
+}
+
+
 /* Create a function called whileLoop in loops.js. The function should take a number as an argument. Using a while loop, count down (using console.log) from the passed in number to 0. Then return the string 'done' */
     
 function whileLoop(n) {
