@@ -33,6 +33,7 @@ do {
   console.log("I run once regardless");
 
 } while 
-  (incrementVariable(num) < num);
+
+  (incrementVariable(i) <= num);
 
 }
