@@ -21,13 +21,18 @@ return "done"
   
   /* TODO: Define a function called doWhileLoop in loops.js. The function should take an integer as an argument. Use the incrementVariable() function (you can copy it from this README) in the condition, and console log "I run once regardless." while incrementVariable() returns a number less than the parameter received. (Your condition might look something like incrementVariable() < num.) Remember that it should also console log when receiving 0 as a parameter because the do-while runs before the condition is checked. */
   
-  function doWhileLoop(i) {
-    function incrementVariable() {
-  i = i + 1;
-  return i;
-}
+let i = 0;
+  
+function doWhileLoop(num) {
+  function incrementVariable() {
+    i = i + 1;
+    return i;
+} 
 
 do {
   console.log("I run once regardless");
-} while (incrementVariable() > i);
-  }
+
+} while 
+  (incrementVariable(num) < num);
+
+}
